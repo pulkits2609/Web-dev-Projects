@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-it Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body id="body">
+    <div id="temporary">
+        <i class="fa-regular fa-circle-xmark" id="details_icon" onclick="details_close()"></i>
+        <div id="add_to_cart" onclick="add_cart()"><h2>Add to Cart<i class="fa-solid fa-cart-shopping"></i></h2></div>
+        <div id="temporary_main">
+            <div class="temporary_column">
+                <img src="images/laptops/full/fourth.jpg" alt="" class="details_image">
+            </div>
+            <div class="temporary_column temporary_column1">
+                <div class="details_name">
+                    <h1>HP Laptop 15s</h1>
+                </div>
+                <div class="details_description">
+                    <h3><u>Brand</u> : HP</h3>
+                    <h3><u>Model Name</u> : HP 15s</h3>
+                    <h3><u>Scree Size</u> : 15.6 Inches</h3>
+                    <h3><u>Color</u> : Natural Silver</h3>
+                    <h3><u>Hard Disk Size</u> 512 GB</h3>
+                    <h3><u>CPU Model</u>: Ryzen 3</h3>
+                    <h3><u>RAM Memory Installed Size</u>8 GB</h3>
+                    <h3><u>Operating System</u>Windows 11 Home</h3>
+                    <h3><u>Special Features</u> : Micro Edge, Anti Glare, Dual Speakers</h3>
+                    <h3><u>Feature</u> : Built in Alexa, Multi touch Gesture, light weight</h3>
+                    <h3><u>Graphics Card</u> : Integrated</h3>
+                    <h3><u>Brand</u> : HP</h3>
+                </div>
+                <div class="details_info">
+                    <h2>About this Item</h2>
+                    <ul>
+                        <li><p>【4-core AMD Ryzen 3 5300U】8 threads and 4MB L3 cache deliver powerful performance and swift responsiveness. The AMD Radeon graphics help you experience crisp visuals with vivid clarity.</p></li>
+                        <br>
+                        <li><p>【Upgraded memory and storage】8GB DDR4 RAM integrates a higher-bandwidth memory for smooth functioning. The high-speed 512GB PCIe NVMe M.2 SSD creates more room to work with ample of storage.</p></li>
+                        <br>
+                        <li><p>【Micro-edge display】The 15.6-inch, FHD, 250-nit, anti-glare, and micro-edge display is engineered for high-quality viewing with stunning clarity.</p></li>
+                        <br>
+                        <li><p>【Effortless connectivity】Wi-Fi 5 (1x1) and Bluetooth 4.2 ensure an uninterrupted and seamless experience. Enjoy effortless connectivity with 1 x USB Type-C, 2 x USB Type-A, and 1 x HDMI 1.4b ports.</p></li>
+                        <br>
+                        <li><p>【Long battery life】Fast charge your battery from 0% to 50% in 45 mins. The durable 41Wh battery enables you to maximize productivity and work through tasks without interruption.</p></li>
+                        <br>
+                        <li><p>【Business conferencing】HP True Vision 720p HD camera with integrated dual array mics, and dual speakers deliver a high-resolution, crystal-clear collaboration experience.</p></li>
+                        <br>
+                        <li><p>【Why HP】Experience the unparalleled advantages of choosing HP, the most preferred and trusted PC brand by Indians, which empowers you with cutting-edge technology and steadfast dependability.</p></li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------- -->
+    <nav>
+        <div id="nav_logo"><img src="images/logo.jpg" alt="" height="100%" width="100%"></div>
+        <ul type="none">
+            <li><a href="#famous_cards">Recommended Products</a></li>
+            <li><a href="#Electronics">Electronics</a></li>
+            <li><a href="#Laptops">Laptops</a></li>
+            <li><a href="">Mobiles</a></li>
+            <li><a href="">Computer Accessories</a></li>
+            <li><a href="">Home Appliances</a></li>
+
+            <!-- <button onclick="details_div()">dont click</button> -->
+        </ul>
+        <div id="account" onclick="account_details()">
+            <i class="fa-regular fa-circle-user"></i>
+            
+            <h5 class="account_name" id="account_name">Enter Details</h5>
+        </div>
+    </nav>
+    <div id="cart">
+        <div class="cart_heading"><i class="fa-solid fa-cart-shopping"></i>
+        <h4 style="display: inline;">cart</h4></div>
+        <div id="cart_main">
+            <div id="cart_box"> <img src="images/laptops/full/fourth.jpg" alt="" id="cart_image1"></div>
+            <!-- <div id="cart_box"></div>
+            <div id="cart_box"></div>
+            <div id="cart_box"></div> -->
+        </div>
+    </div>
+<div id="banner">
+    <img src="images/banner/banner/0.png" alt="">
+</div>
+<hr>
+<!-- --------------------------------------------- -->
+<div id="famous_cards">
+    <div class="fcards_row1">
+        <div class="fcards_section1">
+            <h1>Famous in Laptops</h1>
+            <div class="fcards_main">
+                <div class="fcards_row">
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/1/final/first.jpg" alt="">
+                        <h3>Dell Alienware X16</h3>
+                    </div>
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/1/final/second.jpg" alt="">
+                        <h3>ROG Zephyrus M16</h3>
+                    </div>
+                </div>
+                <div class="fcards_row">
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/1/final/third.jpg" alt="">
+                        <h3>Acer Predator X16</h3>
+                    </div>
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/1/final/fourth.jpg" alt="">
+                        <h3>ROG flow X13</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="fcards_bottom">
+                <a href=""><button>Show More</button></a>
+            </div>
+        </div>
+        <div class="fcards_section1">
+            <h1>Famous in Mobile Electronics</h1>
+            <div class="fcards_main">
+                <div class="fcards_row">
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/2/first.jpg" alt="">
+                        <h3>Samsung S24 Ultra</h3>
+                    </div>
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/2/second.jpg" alt="">
+                        <h3>Iphone 15 Pro</h3>
+                    </div>
+                </div>
+                <div class="fcards_row">
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/2/third.jpg" alt="">
+                        <h3>OnePlus 12</h3>
+                    </div>
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/2/fourth.jpg" alt="">
+                        <h3>Xiaomi 14</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="fcards_bottom">
+                <a href=""><button>Show More</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="fcards_row1">
+        <div class="fcards_section1">
+            <h1>Famous Computer Accessories</h1>
+            <div class="fcards_main">
+                <div class="fcards_row">
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/3/first.jpg" alt="">
+                        <h3>Dell Alienware X16</h3>
+                    </div>
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/3/second.jpg" alt="">
+                        <h3>ROG Zephyrus M16</h3>
+                    </div>
+                </div>
+                <div class="fcards_row">
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/3/third.jpg" alt="">
+                        <h3>Acer Predator X16</h3>
+                    </div>
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/3/fourth.jpg" alt="">
+                        <h3>ROG flow X13</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="fcards_bottom">
+                <a href=""><button>Show More</button></a>
+            </div>
+        </div>
+        <div class="fcards_section1">
+            <h1>Famous in Home Appliance</h1>
+            <div class="fcards_main">
+                <div class="fcards_row">
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/4/first.jpg" alt="">
+                        <h3>Dyson Vacuum</h3>
+                    </div>
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/4/second.jpg" alt="">
+                        <h3>INALSA Air Fryer</h3>
+                    </div>
+                </div>
+                <div class="fcards_row">
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/4/third.jpg" alt="">
+                        <h3>Crompton Mixer</h3>
+                    </div>
+                    <div class="fcards_maincard">
+                        <img src="images/famous_cards/4/fourth.jpg" alt="">
+                        <h3>Coffee Maker</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="fcards_bottom">
+                <a href=""><button>Show More</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------------------------------- -->
+<br>
+<div id="Electronics">
+    <h1 id="category_main">ELECTRONICS</h1>
+    <div class="Laptops" id="Laptops">
+        <h1 class="electronics_heading">LAPTOPS</h1>
+        <div class="laptops_row">
+            <div class="laptops_cards">
+                <img src="images/laptops/first.png" alt="" onclick="details_div()">
+            </div>
+            <div class="laptops_cards"><img src="images/laptops/second.png" alt=""></div>
+            <div class="laptops_cards"><img src="images/laptops/third.png" alt="" onclick="details_div()"></div>
+        </div>
+        <div class="laptops_row">
+            <div class="laptops_cards"><img src="images/laptops/fourth.png" alt=""></div>
+            <div class="laptops_cards"><img src="images/laptops/fifth.png" alt=""></div>
+            <div class="laptops_cards"><img src="images/laptops/sixth.png" alt=""></div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+
+<!-- ----------------------- -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links"></div>
+                <ul>
+                    <a href="#"><i class="fab fa-facebook-f facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in linked"></i></a>
+                
+            </div>
+
+        </div>
+    </div>
+</footer>
+</body>
+</html>
